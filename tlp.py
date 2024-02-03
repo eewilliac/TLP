@@ -33,3 +33,11 @@ def cons(arg1, arg2):
         return arg2
     else:
         return []
+
+
+if __name__ == "__main__":
+    lst = [8,6,7,5,3,0,9]
+    print("car:{}".format(car(lst)))
+    print("cdr:{}".format(cdr(lst)))
+    print("is_atom{}?--->{}".format(lst,is_atom(lst)))
+
