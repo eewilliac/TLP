@@ -2,7 +2,7 @@
 #so.
 from tlp import *
 
-lst = ['bacon','and','eggs']
+
 
 def is_lat(lst):
     if(type(lst) == list):
@@ -12,3 +12,6 @@ def is_lat(lst):
             return (is_lat(cdr(lst)))
         else:
             return False
+
+
+
